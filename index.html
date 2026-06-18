@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">    
+<meta name="description" content="learn HTML for beginners">
+<meta name="keywords" content="HTML, learn code">
+<meta name="author" content="Houssam Eddine Hadji">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My first website</title>
+
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+
+
+
+</head>
+
+<body>
+<header style="background-color: green;">
+<h1>My First website</h1>
+<p>hi my name is Hadji Houssam Eddine</p>
+
+<a href="index.html">home</a>
+<a href="">about</a>
+<a href="">contact</a>
+
+<hr>
+</header>
+
+
+<main>
+<h3><u>main tag</u></h3>
+<p><b>main tag</b>is used to contain all of the contennt within our web page it helps with organization</p>
+<p>body:(the web page background) once the files has a body many different types of content including (text,images,and buttons) can be added to the body</p>
+
+<h1>this is a h1 heading</h1>
+
+<p>h1 heading represent a section heading</p>
+
+<h2>this is a h2 heading</h2>
+
+<ul>
+    <li><a href="#html tag">html tag</a> </li>
+    <li><a href="#head tag">head tag</a></li>
+    <li><a href="#title tag">title tag</a></li>
+    <li><a href="#paragraph">paragraph</a></li>
+    <li><a href="#division">division</a></li>
+    <li><a href="#identifier">identifier</a></li>
+    <li><a href="#span">span</a></li>
+    <li><a href="#text information">text information</a></li>
+    <li><a href="#list">list</a></li>
+    <li><a href="#inserting a image">inserting a image</a></li>
+    <li><a href="#alt function">alt function</a></li>
+    <li><a href="#inframe">inframe</a></li>
+    <li><a href="#video">video</a></li>
+    <li><a href="#audio">audio</a></li>
+    <li><a href="#link tag">link tag</a></li>
+    <li><a href="#anchor tag">anchor tag</a></li>
+</ul>
+
+<h3>this is a h3 heading</h3>
+
+<p>HTML files require certain element to set up the document property. we can let web browser know that we are using HTML by starting our document with a document type declaration.
+    the declaration look like this <br>
+    <br>
+    <img src="images/!DOCTYPE html.png">
+
+<h3><u>html tag</u></h3>
+<div id="html tag">
+</p>
+<p>&lthtml&gt &nbsp; &lt/html&gt tags are used to define the beginning and end of an HTML document. everything inside these tags is part of the HTML document structure</p> 
+</div>
+
+<h3><u>head tag</u></h3>
+<div id="head tag">
+<a href="#link tag">(to return to link tag (down))</a>
+    <p>&lthead&gt &nbsp; &lt/head&gt is used to contain meta information about the document (inside the head element is what appears to ypu when you search for website (title, description, website icon)</p>
+
+</div>
+
+<h3><u>title tag</u></h3>
+<div id="title tag">
+    <p>&lttitle&gt &nbsp; &lt/title&gt it's always inside the head element. what you write inside it it will be the name of your website it will appear in the web tab</p>
+    <img src="images/tab naame.png" type="image/png">
+</div>
+
+
+<h3><u>paragraph</u></h3>
+<div id="paragraph">
+<p> &lt;p&gt; element we can use it to organize and display text</p>
+</div>
+<h3><u>division</u></h3>
+<div id="division">
+<p> &lt; body &gt;element is the parent of the (div)element it have the same function as (body)element. 
+    <br>
+    <br>the (div) element it's a block container to group element for styling. (and it divides the page into section)<br></p>
+    <p>&ltdiv&gt is a block level container when you apply a CSS styling to it, it takes the entire width of the document. (this is the different between it and the span element.</p>
+
+    <h4><div style="background-color: lawngreen;">this is a div title</div></h4>
+
+    <p>the div code we used to change the background-color is this</p>
+   <div id="div CSS"><img src="images/div CSS.png"></div>
+   <p><b>Note:</b> after reading about span compare between it and the <a href="#span CSS">span</a> for more understanding.</p>
+
+</div>
+
+<h3><u>identifier</u></h3>
+<div id="identifier">
+<p>&lt;id&gt;: it's a attribute that create a division or section with a unique (identifier) allowing you to target that specific element with css and javascript.the id attribute can be used with any HTML element to uniquely identify it within the entire document</p>   
+</div>
+
+<h3><u>span</u></h3>
+<div id="span">
+<p>&lt;span&gt;:is <mark>inline container</mark> to group element for styling. (it's commonly used to apply CSSs styles or JAVASCRIPTaction to a specific part of text).</p>
+<p>whatever is sandwiched between the pair of 'span' tags we can apply to the (text, sentence container) some CSS styling.</p>
+
+<h4><span style="background-color: lawngreen;">this is a span title</span></h4>
+
+<p>the span code we used to change the background-color is this:</p>
+<div id="span CSS"><img src="images/span css.png"></div> 
+
+<p><b>Note:</b> compare between the span and <a href="#div CSS">div</a> for more understanding.</p>
+
+</div>
+
+<h3><u>text information</u></h3>
+<div id="text information"> 
+    <p style="margin-bottom: 0;">this is a normal text</p>
+    <p style="margin-top: 1;">this is a <b>normal</b> text</p>
+    <p>the code that the used to make the word (normal) bold is: &ltb&gtnormal&lt/b&gt</p>
+    <style>p {
+        margin: 1;
+        padding: 0;
+        line-height: 1;
+    }
+        </style>
+    <p style="margin-top: 1;">this is a <i>normal</i> text</p>
+    <p>the code that the used to make the word (normal) italic is: &lti&gtnormal&lt/i&gt</p>
+    <p style="margin-top: 1;">this is a <u>normal</u> text</p>
+    <p>the code we used to make underline under the word normal is:&ltu&gtnormal&lt/u&gt</p>
+    <p>this is a <del>normal</del> text</p>
+    <p>the code we used to delete the word normal is:&ltdel&gtnormal&lt/del&gt</p>
+    <p>this is a <big>normal</big> text</p>
+    <p>the code we used to make the word normal a little bit bigger is: &ltbig&gtnormal&lt/big&gt</p>
+    <p>this is a <small>normal</small> text</p>
+    <p>the code we used to make the word normal a little bit smaller is: &ltsmal&gtnormal&lt/smal&gt</p>
+    <p>this is a <sub>normal</sub> text</p>
+    <p>the code we used to make the word normal smaller and just underneath the other text surrounding it. it called (subscript)</p>
+    <p>this is a <sup>normal</sup> text</p>
+    <p>the code we used to make the word normal smaller and just above the other text surrounding it. it called (supscript)</p>
+    <p>you can also combine these text information</p>
+    <p>this is a <b><u>normal</u></b> text</p>
+    <p>the code we used to make the word normal bold and underlined is: &ltb&gt&ltu&gtnormal&lt/u&gt&lt/b&gt</p>
+
+<h3><u>list</u></h3>
+</div id="list">
+<p>to create a list we use this tag:&ltul&gt and its for unordered lis</p>
+<p>to create individual list we use this tag:&ltli&gt</p>
+
+<ul>
+    <li>the first individual list</li>
+    <li>the second individual list</li>
+</ul>
+
+<p>this is the code to write unordered list</p>
+<img src="images/unordered liste.png">
+
+<br>
+<p>there is another type of list which is ordered list to writ it we use the flowing tag &ltol&gt</p>
+<p>and the same thing to use the individual list we write the same tag which is:&ltli&gt</p>
+
+<ol>
+    <li>the first individual list</li>
+    <li>the second individual list</li>
+</ol>
+<p>this is the code used to write ordered list</p>
+<img src="images/ordered list.png">
+
+<p>there is a third type of listing it's called description list</p>
+<p>description list: is made of key value pairs, you have a term and a definition</p>
+<p>to create a description list you need a pair of &ltdl&gt tags (dl meaning description list) and for the terms you type &ltdt&gt then close it and for the description definition we need a pair of 'dd' tags</p>
+<p>the following is a description list:</p>
+
+<dl>
+<dt><b>programme:</b></dt>
+<dd>a set of related measures or activities with a particular long-term aim.</dd>
+<dt><b>protocol:</b></dt>
+<dd>a set of rules governing the exchange or transmission of data between devices.</dd>
+</dl>
+
+<p>this is how we create the above description list</p>
+<img src="images/description list.png">
+
+
+</div>
+
+<h3><u>inserting a image</u></h3>
+<div id="inserting a image">
+<img src="images/my image code.png" alt="my image code for inserting a image"/>
+<p>if you put your image in folder for example called (images) the code line should be like the following</p>
+<img src="images/imag inside a folder.png"/>
+</div>
+
+<h4><u>alt function</u></h4>
+<div id="alt function"> 
+<p>alt:used to describe an image for the following purposes</p>
+<ul>
+    <li>if a image fail to load on a web page the user can read the image description and know what is't</li>
+    <li>visually impaired users often brows the web with the aid of screen reding software so the software can read the image</li>
+
+</ul>
+</div>
+
+<h3><u>inframe</u></h3>
+<div id="inframe">
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/aycYLVSOtZo?si=FuwCZ1KnjPV_aIXK" frameborder="0" allow="accelerometer; clipbord-write; encrypted-media; gyroscope; picture-in-pictrure" allowfullscreen>
+    </iframe>
+    </div>
+
+    <p>if you wanna ad a youtube video to your page you cant use &ltvideo&gt it will not work because the &ltvideo&gt tag only supports local video files or direct links to video files like '.mp4','.ogg','.webm'. so to ad a youtube video we use &ltinframe&gt tag like the following </p>
+    <img src="images/inframe tag.png">
+    <p><b><ol><li>frameborder</li></b> <ul>
+        <li><b>purpose:</b>controls whether a border is shown around the iframe.</li>
+        <li><b>values:</b><ul>
+            <li>"0":no border</li>
+            <li>"1":default value, displays a border</li>
+        </ul></li>
+        <li> Necessary?:not necessary. in modern html, you can use CSS to control the border instead.</li>
+    </ul>
+    <li><b>allow</b></li><ul>
+        <li><b>purpose:</b>specifies a set of features that the iframe is allowed to use, providing a way to enable or disable certain browser features for the iframe. like in this example:<ul>
+            <li>accelerometer</li>
+            <li>clipbord-write</li>
+            <li>encrypted-media</li>
+            <li>gyroscope</li>
+            <li>picture-in-picture</li>
+        </ul></li>
+    </ul></li>
+        <li><b>accelerometer</b></li><ul>
+            <li><b>purpose:</b> the accelerometer is a sensor that measures the acceleration of a device, usually in three axes (X,Y,Z). this sensor can detect movements like tilting, shaking, or rotation of the device.</li>
+            <li><b>usage in 'iframe':</b> when you allow the 'accelerometer', it means that the content inside the &ltinfrzmeigt can access the device's accelerometer data. this is  useful for web applications that might need to respond to physical movement, such as interactive games or apps that adjust the display based on the device's orientation.</li>
+            <li><b>common use cases:</b> typically used in games or interactive experiences that adapt based on how the device is moved. for example, a game might let you steer by tilting your phone (car's game)</li>
+        </ul>
+    <li><b>clipbord-write</b></li><ul>
+        <li><b>purpose:</b> the clipbord is the part of your operating system that handles (cut, copy, paste) operation. 'clipbord-write' permission allows the content in the &ltinframe&gt to write data (text, images, etc) to the clipbord</li>
+        <li><b>usage:</b>when enabled, it allows the iframe's content to automatically copy text or other content to the clipbord without the user manually selecting and copying it. this can be used for features like "copy to clipbord" buttons on web pages.</li>
+        <li><b>common use:</b> used in applications where you want to provide a button that, when clicked, copies something directly to the clipbord, such as copying a URL, coupon code, or formatted text for easy pasting elsewhere.</li>
+
+    </ul>
+<li><b>encrypted-media</b></li><ul>
+    <li><b>purpose:</b>'encrypted-media' refers to media that is protected by DRM (digital rights management). DRM is a technology used to control how digital content is used and distributed, especially for protecting copyrighted material like movies, music, and videos.</li>
+    <li><b>usage:</b> allows the the content inside the inframe to access and play DRM-protected media. it is essential for streaming services like Netflix, youtube, or spotify, that require DRM to prevent unauthorized copying or distribution of content</li>
+    <li><b>common use:</b> necessary for playing video or music from services that enforce DRM, like watching a movie on Netflix or a music video on youtube that uses DRM.</li>
+</ul>
+<li><b>picture-in-picture:</b></li><ul>
+    <li><b>purpose:</b> allows the video to be minimized to a small floating windows while the user interacts with other content.</li>
+    
+</ul>
+<li><b>allowfullscreen:</b></li><ul>
+    <li><b>purpose:</b> permits the embedded content (e.g., a youtube video) to be displayed in full-screen mode.</li>
+
+</ul>
+
+</ol>
+<p><b>Note: the URL you use in 'inframe' tag should be embedded not shortened URL </b></p>
+   
+</p>
+<br>
+<p><b>the code used to write all the above (the explanation) is the following</b></p>
+<img src="images/infram and listing code 1.png" alt="the code used to write all the above (the explanation)">
+<img src="images/inframe and listing code 2.png" alt="the code used to write all the above (the explanation)">
+<img src="images/inframe and listing code 3.png" alt="the code used to write all the above (the explanation)">
+
+<h3><u>video</u></h3>
+<div id="video">
+    <p>this is the line of code used to display this video</p>
+    <img src="images/adding video.png">
+<p>note:sometimes if the name of the video is too longe the video may not work</p>
+    <video controls width="560" height="315">
+         <source src="video/Learn HTML.mp4" type="video/mp4">
+         video not supported
+    </video>
+  
+</div>
+
+<h3><u>audio</u></h3>
+<div id="audio">
+    <p>this is the line of code used to ad this audio</p>
+    <img src="images/audio line code.png">
+    <audio controls><source src="audio/38217_beethoven_fur_elise_bagatelle_no.25_a_minor_proud_music_preview.mp3" type="audio/mp3">
+   audio not supported
+    </audio>
+   
+</div>
+
+<h3><u>link tag</u></h3>
+<div id="link tag">
+<p>linking icon is for connects the HTML document to an icon (favicon) that appears in the browser tab</p>
+<p>the code i used to put this icon <img src="favicon.jpg" width="15" height="15" type="image/jpg"> is the flowing: </p>
+<img src="images/link tag for icon.png" type="image/png">
+<p>by setting rel="icon", you inform the browser that the linked file should be used as the favicon for the website.
+    and because &ltlink&gt is given information about website it should be in head element <a href="#head tag">(to go up to the head tag)</a>
+</p>
+</div>
+
+<h3><u>anchor tag</u></h3>
+<div id="anchor tag">
+    <ul>
+<li><p>&lta&gt the anchor element you can add with it a link to a web page. with using 'href' attribute, this attribute stand for "hypertext reference" and is used to link a path (a link , google link)</p></li>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">click here it will take you to a web page</a>
+<p>this is the code used to write (<span style="color: blueviolet;">click here it will take you to a web page)</span>  (the anchor)</p>
+<img src="images/anchor.png">
+<p>this code will open the website that you linked it (using the &lta&gt element with its 'href' attribute in the same window (page)</p>
+<li><p>if you want to open the linked website in a new tab do this</p></li>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">click here it will take you to a web page</a><br>
+<img src="images/anchor target_blank.png">
+<li><p>not only that. if you create two HTML documents you can anchor in one of them into the author HTML document (as link) just by writing the name of the HTML page.
+    for example if you create two HTML documents files we name the first'index.html' and the second one 'about.html', these two name ('index.html','about.html')are path.
+    and this is how we can achieve this:</li> 
+</p>
+<p>&lta&gt href="about.html"&gt <span style="color: blueviolet;">go to about page</span> &lt/a&gt</p>
+<li><p>and also you can links a certain paragraph, section, division in the same page. like that</p></li>
+<img src="images/anchor in the same page.png">
+<ul>
+    <li>&lta&gt: this is the anchor tag used to create hyperlinks in HTML</li>
+    <li><span style="color: rgba(21, 125, 125, 0.703);">href</span> attribute defines the destination of the link.</li>
+    <li>the '#' symbol represents a fragment identifier, which typically refers to a specific section within the same page</li>
+</ul>
+<p>but for this code ( &lt<span style="color: rgb(6, 6, 243);">a</span> <span style="color: rgba(21, 125, 125, 0.703);">href</span><span style="color: orange;">="#html tag"</span>&gt html tag &lt/<span style="color: rgb(6, 6, 243);">a</span>&gt ) to work you should have (element, division,) with identifier (id) that have the same name (html tag)</p>
+<p>and this is how we create the list above</p>
+<img src="images/anchor liste.png">
+<p>with this code</p>
+<img src="images/anchor list code.png">
+</ul>
+<p>you can also use it to begin the <mark>process</mark> of emailing someone bye using the 'mailto:' protocol in the 'href' attribute of the '&lta&gt' tag. this will open the user's default email client with the email address already filled.
+    here's how you can do it </p>
+<img src="images/email me.png">
+
+    <a href="mailto:hadjihoussam0321@gmail.com">email me</a><br>
+ <p style="display: inline;">when you click on the word <span style="color: #0000FF;">email me</p> <p style="display: inline;">it will start the <mark>process</mark></p>
+
+</div>
+
+<h3><u>table</u></h3>
+<div id="table">
+<p>creating a table in HTML. involves using the '&lttable&gt' element, along with several other tags like '&lttr&gt', '&lttd&gt', '&ltth&gt'. here's a breakdown of each tag and how they are used:</p>
+
+<style>
+    .spased-list li {
+        margin-bottom: 10px;
+    }
+    
+
+</style>
+
+<ol class="spased-list">
+<li>&lttable&gt: this tag is used to define the start and end of a table.</li>
+<li>&lttr&gt: this tag defines a table row. each row can contain multiple cells, and the cells is defined by '&ltth&gt' and &lttd&gt </li>
+<li>&ltth&gt: this tag is used for header cells, which are typically bold and centered by default</li>
+<li>&lttd&gt: this tag defines a table cell (our data cell). these are the cells in the cells in the table that hold the actual data.</li>
+
+</ol>
+<p>this is my work schedule as physics teacher in high school in the year 2023/2024</p>
+
+<table border="1">
+<tr>
+    <th width="50"></th>
+    <th>8:00-9:00</th>
+    <th>9:00-10:00</th>
+    <th>10:00-11:00</th>
+    <th>11:00-12:00</th>
+    <th>13:00-14:00</th>
+    <th>14:00-15:00</th>
+    <th>15:00-16:00</th>
+    <th>16:00-17:00</th>
+</tr>
+<tr>
+    <td>sunday</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td ></td>
+    <td colspan="2" align="center"><div><b>3S<sub>2</sub></b></div><div>group 1</div></td>
+    <td colspan="2" align="center"><div><b>3S<sub>2</sub></b></div><div>group 2</div></td>
+    <td></td>
+   </tr>
+   <tr>
+   <td>monday</td>
+   <td></td>
+   <td></td>
+   <td align="center"><b>3S<sub>2</sub></b></td>
+   <td align="center"><b>1L<sub>1</sub></b></td>
+   <td colspan="2" align="center"><div><b>1S<sub>2</sub></b></div><div>group 1</div></td>
+   <td colspan="2" align="center"><div><b>1S<sub>2</sub></b></div><div>group 2</div></td>
+   <td></td>
+</tr>
+<tr>
+    <td>tuesday</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td ></td>
+    <td ></td>
+    <td ></td>
+    <td ></td>
+    <td ></td>
+</tr>
+
+<tr>
+    <td>wednesday</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td ></td>
+    <td ></td>
+    <td ></td>
+    <td align="center"><div><b>1L<sub>1</sub></b></div><div>group 1</div></td>
+    <td align="center"><div><b>1L<sub>1</sub></b></div><div>group 2</div></td>
+</tr>
+  
+<tr>
+    <td>wednesday</td>
+    <td align="center"><b>1S<sub>2</sub></b></td>
+    <td align="center"><b>1S<sub>2</sub></b></td>
+    <td></td>
+    <td align="center"><b>3S<sub>2</sub></b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+
+<p>this is the code i used to draw this table</p>
+<img src="images/table code 1.png">
+<img src="images/table code 2.png">
+<img src="images/table code 3.png">
+<p>if you want to make for example the word sunday in the table from data to header you just change &lt<span style="color: #0000FF;">td</span>&gtsanday&lt/<span style="color: #0000FF;">td</span>&gt to &lt<span style="color: #0000FF;">th</span> <span style="color: rgb(138, 209, 233);">scope</span>=<span style="color: orange;">"row"</span>&gtsanday&lt/<span style="color: #0000FF;">th</span>&gt. like this (sandy) will be a table header for the row because it is a table header for the row</p>
+<p>we are going to explain each step and each attribute</p>
+<p><b><span style="color: #ff0000;">border attribute:</span></b> the word border within the table tag (&lt<span style="color: #0000FF;">table</span> <span style="color: #ff0000;">border</span>=<span style="color: orange;">"1"</span>&gt), (border) used to define the width of the table's border. it specifies the thickness of the border in pixels. for example, border="1" create a 1-pixel-wide border around the table. and without it it will not be border</p>
+<p><b><span style="color: rgb(138, 209, 233);">width attribute:</span></b> the width attribute in the '&ltth&gt' and '&lttd&gt' tags (&lt<span style="color: #0000FF;">th</span> <span style="color: rgb(138, 209, 233);">width</span>=<span style="color: orange;">"50"</span>&gt) and (&lt<span style="color: #0000FF;">td</span> <span style="color: rgb(138, 209, 233);">width</span>=<span style="color: orange;">"50"</span>&gt) specifies the width of a <u>table header<b> cell</b></u> or a <u>table data<b> cell</b></u> ('&lttd&gt'), respectively. this attribute is used to set the width of individual table cells directly.</p>
+<p><b><span style="color: #ff0000;">align attribute:</span></b> the align attribute in the '&ltth&gt' and '&lttd&gt' tags (&lt<span style="color: #0000FF;">th</span> <span style="color: #ff0000;">align</span>=<span style="color: orange;">"center"</span>&gt) and (&lt<span style="color: #0000FF;">td</span> <span style="color: #ff0000;">align</span>=<span style="color: orange;">"center"</span>&gt) (instead of "center" you can use "left", "right" whatever you want) it used to alignment the content within the cell.</p>
+<p><b><span style="color: rgb(138, 209, 233);">scope attribute:</span></b> the scope attribute in the '&ltth&gt' tag (&lt<span style="color: #0000FF;">th</span> <span style="color: rgb(138, 209, 233);">scope</span>=<span style="color: orange;">"row"</span>&gt) it's to define whether the header is for a row, or a column, or a group of columns, or a group of row. this attribute is particularly important for accessibility, as it helps screen readers and other assistive technologies understand the table's structure</p>
+<p><b><span style="color: orange;">row:</span></b> this value makes it clear that the heading is for a row.</p>
+<p><b><span style="color: orange;">col:</span></b> this value makes it clear that the heading is for a column.</p>
+<p><b><span style="color: orange;">rowgroup:</span></b> this value indicates that the '&ltth&gt' is a header for a group of rows.</p>
+<p><b><span style="color: orange;">colgroup:</span></b> this value indicates that the '&ltth&gt' is a header for a group of columns.</p>
+<p><b><span style="color: rgb(138, 209, 233);">clospan attribute:</span></b> the clospan attribute in the '&ltth&gt' and '&lttd&gt' tags (&lt<span style="color: #0000FF;">th</span> <span style="color: rgb(138, 209, 233);">clospan</span>=<span style="color: orange;">"2"</span>&gt) and (&lt<span style="color: #0000FF;">td</span> <span style="color: rgb(138, 209, 233);">clospan</span>=<span style="color: orange;">"2"</span>&gt) is used to specify the number of columns a cell should span across in a table (for example here we put 2, here it will make two cells into one cell, it depend on the number you put.) this attribute allows a single cell to extend horizontally over multiple columns</p>
+<p><span style="color: rgb(138, 209, 233);">rowspan attribute:</span></b> is used with the '&ltth&gt' and '&lttd&gt' element inside a table to make a cell span across multiple rows. this is useful when you want a cell to cover more than one row within a table.</p>
+<p>example:</p>
+
+<table border="1">
+    <tr>
+        <th scope="col">Company Nam</th>
+        <th scope="col">number of Items to Ship</th>
+        <th scope="col">Item</th>
+    
+    </tr>
+
+    <tr>
+        <td>Hadji Houssam</td>
+        <td>2</td>
+        <td>laptop</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Tim-lee</td>
+        <td>14</td>
+        <td>SSd</td>
+        
+    </tr>
+    <td>2</td>
+    <td>tablets</td>
+    <tr>
+       <td>Hakon Bos</td>
+       <td>1</td>
+       <td>microsd card</td>
+    </tr>
+
+</table>
+<p>the code used to create the table above (explaining the use of rowspan attribute):</p>
+<img src="images/table rowspan attribute.png">
+<p>the '&ltthead&gt', '&lttbody&gt', '&lttfoot&gt' elements: are used to organize and logically separate the header, body, and footer sections of a table without altering its structure or appearance.</p>
+<ul>
+    <li>use '&ltthead&gt' to wrap the header rows (&lttr&gt)</li>
+    <li>use '&lttbody' for the main data rows (&lttd&gt)</li>
+    <li>use '&lttfoot' for footer rows</li>
+</ul>
+<p>these elements improve code readability, maintainability, and allow you to apply targeted CSS styles or javascript actions to specific table sections</p>
+</div>
+
+<h3><u>button</u></h3>
+<div id="button">
+    <p>&ltbutton&gt: the button tag create a clickable button on a webpage</p>
+    
+    <button>click me</button>
+
+    <p>this is the code used to create the button above</p>
+    <img src="images/button tag.png">
+    <p>the word (click me) between the button tags is what you wanna be written inside the button</p>
+    <p>if you wanna style the button you can use CSS to change its appearance, we are gonna write some CSS styling (just to get a idea about CSS styling)</p>
+
+    <button style="background-color: red; font-size: 25px; color: aliceblue; border-radius: 25px; cursor: pointer;">click here</button>
+
+    <p>this is the code used for the button above</p>
+    <img src="images/button tag with CSS styling.png">
+    <br>
+
+    <p id="style tag" style="display: inline;"><span style="color: rgb(138, 209, 233);"><b>style:</b></span> the style attribute is used to apply CSS directly to a HTML element. it allows you to define the styling property (like color, size, margin, etc)</p> <a href="#down"> click me to return back down</a>
+    <p id="background-color property"><span style="color: rgb(254, 167, 6);"><b>background-color:</b></span> the background-color property in CSS specifies the color that will fill the background of an element, like a button, div, or the entire page.</p>
+    <p id="font-size property"><span style="color: rgb(254, 167, 6);"><b>font-size:</b></span> the font-size property in CSS specifies the size of the text within an element.</p>
+    <p id="color property"><span style="color: rgb(254, 167, 6);"><b>color:</b></span> the color property in CSS specifies the color of text</p>
+    <p id="border radius propertys"><span style="color: rgb(254, 167, 6);"><b>border-radius:</b></span> property in CSS used to create rounded corners on element, such as button, boxes, or images.</p>
+    <br>
+
+
+    <p>if you want a button to act as link, you should use an anchor ('&ltaegt') element styled as button with CSS. ( you can wrap a '&ltbutton&gt' element with an '&lta&gt' tag, but doing that it will cause several issues:</p>
+    <ul class="lis">
+        <li style="margin-bottom: 10px;"><b>Semantics:</b> the '&ltbutton&gt' element is designed for form submissions and interactive actions, while the '&lta&gt' element is intended for navigation.Wrapping a '&ltbutton&gt' in an '&lta&gt' tag can lead to semantic confusion and potentially impact accessibility</li>
+        <li style="margin-bottom: 10px;"><b>behavior:</b> Wrapping a '&ltbutton&gt' inside '&ltaegt' tag can cause unexpected behavior. the button's built-in functionality and styles might conflict with the link's behavior, leading to issues with interaction and styling</li>
+        <li><b>accessibility:</b> screen readers and other assistive technologies might have difficulty interpreting the wrapped structure, which can negatively impact users relying on these tools.</li>
+
+    </ul>
+ 
+    <p>but if you wanna do it, this how:</p>
+<div>
+    <a style="display: inline;" href="https://www.reddit.com/r/webdev/comments/ce4w59/is_it_bad_practice_to_wrap_a_button_in_an_a_href/?rdt=53248" target="_blank">
+        <button style="background-color: #ff0000; font-size: 25; color: aliceblue; border-radius: 25px; cursor: pointer;">click me</button>
+    </a>
+     <p style="display: inline; padding: 5px;">the code used for this button is:</p> 
+     <br>
+     <img src="images/anchored button.png">
+    
+    </div>
+
+
+    
+    <p>but if you wanna avoid all the issues mentioned above about using wrapped button element with an anchor element you can used CSS styling to make an anchor element look like a button. and this is how: </p>
+<a style="display: inline;" href="https://www.reddit.com/r/webdev/comments/ce4w59/is_it_bad_practice_to_wrap_a_button_in_an_a_href/?rdt=53248" target="_blank" class="button">click me</a>
+
+<style>
+    .button {
+        background-color: #ff0000;
+        color: aliceblue;
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 5px 5px;
+        text-decoration: none;
+    }
+    .button:hover{
+        background-color: darkblue;
+    }
+</style>
+<br>
+<img src="images/anchor styled like a button in CSS.png">
+<p>the above is the CSS code used to style the anchor to look like a button. and we gonna explain the attribute used in it.</p>
+<p id="down" style="display: inline;"><b><a href="#style tag">style</a></b></p>
+<p style="display: inline;">,</p> <p style="display: inline;"><a href="#background-color property">background-color</a></p>
+<p style="display: inline;">,</p> <p style="display: inline;"><a href="#font-size property">font-size property</a></p>
+<p style="display: inline;">,</p> <p style="display: inline;"><a href="#color property">color property</a></p>
+<p style="display: inline;">,</p> <p style="display: inline;"><a href="#border radius propertys">border radius property's</a></p>
+<p style="display: inline;">we have explained all these property and the style tag. click on what you want to go back to, an read it. it will take you there.</p>
+
+</div>
+
+<h3><u>form tag</u></h3>
+<div id="fom tag">
+
+    <p><b><span style="color: #0000FF;">form tag:</span></b> form tag is used to creat a form for collectin user input. it acts as a container for various input elements like <a href="https://www.google.com/search?sca_esv=3e2890c190f439ac&sxsrf=ADLYWIJiCZC0whokZyw73N3NT1AxaqSTEw:1723899323754&q=text+fields&udm=2&fbs=AEQNm0CbCVgAZ5mWEJDg6aoPVcBgTlosgQSuzBMlnAdio07UCId2t1azIRgowYJD0nDbqEIN7XYIyS3uBYzHmWPp2pnWXU-dEjimWdiLZZcw_NjJZLXTzwxgIJsbsM2Ubfq2OdkVkXVocGVgnY1V5XxJvK3FjTXV0KzfYuoiHlC9UqnVEND2_A1a12du4x0a4PT685khpkHS&sa=X&ved=2ahUKEwjjoci2ifyHAxWWQvEDHfREOcUQtKgLegQIGBAB&biw=502&bih=730&dpr=1.25" target="_blank">text fields</a>, <a href="https://www.google.com/search?q=checkboxes&sca_esv=3e2890c190f439ac&udm=2&biw=502&bih=730&sxsrf=ADLYWIIGwpdLmx1DqxO_RPr6nBH7Ae0mqA%3A1723899415187&ei=F57AZtaQC6uL7M8P4ty66A4&ved=0ahUKEwiW-JTiifyHAxWrBfsDHWKuDu0Q4dUDCBA&uact=5&oq=checkboxes&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmNoZWNrYm94ZXMyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSL4OUKEJWKEJcAN4AJABAJgB9gGgAfYBqgEDMi0xuAEDyAEA-AEC-AEBmAIEoAKPAsICBBAjGCfCAgYQABgHGB6YAwCIBgGSBwUzLjAuMaAH3QQ&sclient=gws-wiz-serp" target="_blank">checkboxes</a>, <a href="https://www.google.com/search?sca_esv=3e2890c190f439ac&sxsrf=ADLYWIJHtzaSfxEraqf32CPo1QwqDv7Wew:1723899516294&q=radio+buttons&udm=2&fbs=AEQNm0CbCVgAZ5mWEJDg6aoPVcBgTlosgQSuzBMlnAdio07UCId2t1azIRgowYJD0nDbqEIN7XYIyS3uBYzHmWPp2pnWroPY5_ev0Oo7x4zLDK9EWTY4ze_03lQwGP58kDfBM3GmGgw6t2B7c0GUArCVxH7g-ZV8MG3svDitYLV4gqGHWd-mR7nbj66JjZQykSvYQze3kCbV&sa=X&sqi=2&ved=2ahUKEwiYgbCSivyHAxVHTUEAHZj5GwwQtKgLegQIERAB&biw=502&bih=730&dpr=1.25" target="_blank">radio buttons</a>, and <a href="https://www.google.com/search?q=submit+buttons+html&sca_esv=3e2890c190f439ac&udm=2&biw=502&bih=730&sxsrf=ADLYWIKeieFcECkLGHCuQGiC3lP01RVgFQ%3A1723899712256&ei=QJ_AZoaeD8OfkdUPisS38Aw&ved=0ahUKEwiGvujvivyHAxXDT6QEHQriDc4Q4dUDCBA&uact=5&oq=submit+buttons+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3N1Ym1pdCBidXR0b25zIGh0bWxIwhFQowNY9g5wAXgAkAEAmAGcAqAB4weqAQUwLjMuMrgBA8gBAPgBAZgCAqACnAHCAgcQABiABBgTwgIEEAAYHpgDAIgGAZIHAzEuMaAH-gE&sclient=gws-wiz-serp" target="_blank">submit buttons</a>, allwing users to submit data to a server for processing.</p>
+    <p><p><b><span style="color: rgb(138, 209, 233);">action attribute:</span></b> it's one of the form tag attribute specifies the destination URL where the form data will be sent for processing.</p>
+    <ul>
+        <li>the server-side script at this URL, such as PHP file for example ( &lt<span style="color: #0000FF;">form</span>&nbsp;<span style="color: rgb(138, 209, 233);">action</span>=<span style="color: orange;">"submit_form.php"</span>&gt) the (submit_form.php) is the URL (the name of the file where the form data will be sent for processing) wich may include storing it in a database, performing calculations, or generating a response for user and the PHP cript send the data for example to MYSQL database.</li>
+    </ul>
+    <p><b><span style="color: rgb(138, 209, 233);">method attribute:</span></b> the method attribute in the form tag specifies how thr form data will be sent to the server when the form is submitted. there are two main methods: 'get' and 'post'.</p>
+    <ul>
+        <li><b>get method:</b> with 'get', the form data is appended to the URL in the browser's address bar as <a href="https://guides.emberjs.com/release/routing/query-params/">query parameters</a> (eg., '?name=houssam&age=27').</li>
+        <li><b>post method:</b> with post, the form data is sent in the body of the HTTP request, not in the URL. this method is more secure because the data is not visible in the URL unlike get.</li> 
+    </ul>
+    <p>and many author attribute</p>
+
+    <p>here is a example for the form tag:</p>
+    
+<form action="format.php" method="post">
+   <div>
+    <label>username</label>
+    <input type="text">
+</div>
+<div>
+    <label>password</label>
+    <input type="password">
+</div>
+<input type="submit" value="submit">
+</form>
+
+<p>this is the code used to creat the form above</p>
+<img src="images/example for the tag form.png">
+<p>the form has two input fields: one for the the username and another for the password.when the user clicks the "submit" button, the form will send the entered username and password to a PHP script named "format.php" using the HTTP POST method.(the format will not work because i didnt create the "format.php" file)</p>
+<p><b>input tag:</b> the input tag used to create various types of user interactive elements, such as text fields, checkboxes, radio buttons, and bottons. this why it use inside form tag</p>
+<p>attributes of input tag:</p>
+<ul>
+    <li><b>type:</b> specifies the type of input control. example include:
+        <ul>
+        <li><b>text:</b> single-line text field. <input type="text" placeholder="enter your name"></li>
+        <li><b>password:</b> password field (text is hidden). <input type="password" placeholder="enter your password"></li>
+        <li><b>submit:</b> submit button. <input type="button" value="hi i'm a button"></li>
+        <li><b>checkbox:</b> checkbox <input type="checkbox"></li>
+        <li><b>radio:</b> radio button. <input type="radio" > (once a rdio button is selected, it cannot be unchecked individually. instead, selecting a different radio button in the same group will automatically unselect the previously selected button)</li>
+        <li><b>file:</b> file upload field. <input type="file"></li>
+        <li><b>email:</b> email input field. <input type="email" placeholder="enter your email"></li>
+
+    </ul></li>
+
+</ul>
+
+<p><b>label tag:</b> the label tag is used to define a label for an input element in a form. it provide a description for the input field.
+    <ul>
+        <li><b>for attribute:</b> associates the label with a specific input element by matching the <b>'id'(id it an attribute)</b> of the input. this helps users who rely on screen readers.</li>
+    </ul>
+    <p><b>name attribute:</b> in a input tag (and other form element like '&ltselect&gt', 'elttextarea&gt', etc.) is used to specify a name for the form data that the input element represent.this name is key when the form is submitted, as it is used to identify the data in the form submission</p>
+    <p>meaning when create an input with (type="text") and give it a name attribute (for example, name="username"), the server-side script will understand and process the data as key-value pair.</p>
+   
+    <input type="text" name="usename" placeholder="put your name here">
+    <img src="images/input name attribute.png">
+
+    <p>here's how it works:</p>
+    
+    <p>it the user enters "Houssam" in the text field with (name="usename"), the form data sent to the server will look something like this</p>
+    <p>username=Houssam</p>
+    <p>the server-side script (like PHP, Python, etc.) will then interpret this as:</p>
+    <p>key: "username</p>
+    <p>value: "Houssam"</p>
+
+    <h3><u>textarea tag</u></h3>
+    <div id="textarea">
+        <p>the &lttextarea&gt is uded to create a multi-line text input field, allwing users to enter larger amounts of text, such as comments, description, or messages.</p>
+
+    <textarea name="comment" rows="4" cols="50" maxlengthrows="200" ></textarea>
+
+ <p>this is the code used for the text area above</p>   
+<img src="images/textarea tag.png">
+
+</div>
+
+<h3><u>select tag</u></h3>
+<div id="select">
+    <p>select tag is used to create a drop-down list that allow users to select one more options from a predefined list. this tag is commonly used in forms where users need to choose from a list of options, such as selecting a country, a category, or a product variant.</p>
+    <p>each option within the drop-down is represented by an (&ltoption&gt) tag.</p>
+    <p>attributes like (name, id, multiple, size.) control the behavior and appearance of the drop-down list.</p>
+    <ul>
+        <li><b>multiple attribute:</b> allows users to select more than one option by holding down the (Ctrl key in windows or comand key in mac) while selecting. but this attribute works effectively when the size attribute is set to a value greater than 1.</li>
+        <li><b>size attribute:</b> determines the number of options visible without scrolling. if size="3" , three optins are visible.</li>
+
+    </ul>
+<h4><u>basic structure of &ltselect&gt:</u></h4>
+    <select name="options">
+        <option value="low">low</option>
+        <option value="midum">midum</option>
+        <option value="high">high</option>
+      
+    
+    </select><br>
+
+
+    <img src="images/select tag .png">
+
+    <p><b>value attribute:</b> the value attribute in option tag determines what data is sent to the server when a form is submitted.</p>
+
+
+
+</div>
+<p>this is how i create the form below</p>
+<img src="images/form tag.png">
+<form action="forma.php" method="post">
+   <div>
+    <label>username</label>
+    <input type="text" placeholder="enter your name" name="username" required>
+</div>
+<div>
+    <label>email</label>
+    <input type="email" placeholder="enter your email" name="email" required>
+</div>
+<div>
+    <label>
+    <input type="radio" name="type" value="male" required>
+    male
+</label>
+<label>
+    <input type="radio" name="type" value="female" required>
+    female 
+</label>
+</div>
+
+<div>
+    <select name="optins" required>
+        <option value="student">student</option>
+        <option value="employee">employee</option>
+        <option value="unemployed">unemployed</option>
+    </select>
+</div>
+
+<div>
+    <label>
+    <input type="checkbox" name="terms" required>
+    i agree to the terms
+</label>
+</div>
+<div>
+    <label for="telephone">phone</label>
+    <input type="tel" id="telephone" pattern="\d{10}" maxlength="10" name="phone">
+
+</div>
+<div>
+    <label for="birthday">birthday</label>
+    <input type="date" id="birthday" name="birthday" required>
+</div>
+<div>
+    <label for="quantity">quantity</label>
+    <input type="number" name="quantity" min="1" max="99" id="quantity">
+</div>
+
+<button>submit</button>
+</form>
+
+<h3><u>header and footer</u></h3>
+
+<h3><u>header element</u></h3>
+<div>
+    <p><b>&ltheader&gt:</b> is used to contain introductory contennt or navigational link at the top of your page. it usully includes element like:</p>
+    <ul>
+        <li>a logo or branding</li>
+        <li>navigation menus</li>
+        <li>headings</li>
+    </ul>
+<p>the header of this page</p>
+<img src="images/web page header.png">
+<p>this is how it created</p>
+<img src="images/header.png">
+<p>the (about and contact) links will not work because i didnt creat thesse files</p>
+
+<section id="fieldset and legend">
+    <h3><u>fieldset and legend tags</u></h3>
+   <p><b>&ltfieldset&gt:</b> groups related form elements together visually and semantically.</p>
+   <p><b>&ltlegend&gt:</b> provides a title for the grouped elements inside a &ltfieldset&gt.</p> 
+
+   <p><b>Example of form without fieldest and legend tags:</b></p>
+
+   <form action="format.php" method="post">
+    <label for="name">name
+        <input type="text" id="name" name="username" required>
+        
+    </label>
+    <br>
+    <label for="email">email
+        <input type="email" name="email" id="email" required>
+        
+    </label>
+<br>
+    <label for="password">password
+        <input type="password" name="password" id="password">
+        
+    </label>
+    <br>
+
+    <label for="textarea">biography
+        <textarea rows="2" cols="10"></textarea>
+        
+    </label>
+
+   </form>
+   <img src="images/form without fieldset tag.png">
+<br>
+
+<p><b>Example of form with fieldest and legend tags:</b></p>
+
+   <form action="format.php" method="post">
+    <fieldset>
+        <legend><span class="number" style="background-color: #2222edae;">1</span>your basic info</legend>
+    <label for="name">name
+        <input type="text" id="name" name="username" required>
+        
+    </label>
+    <br>
+    <label for="email">email
+        <input type="email" name="email" id="email" required>
+        
+    </label>
+<br>
+    <label for="password">password
+        <input type="password" name="password" id="password">
+    </fieldset>
+    
+    <fieldset> 
+        <legend><span class="number" style="background-color: #2222edae;">2</span>your profile</legend>
+ 
+    </label>
+    
+    <label for="textarea">biography
+        <textarea rows="2" cols="10"></textarea>
+        
+    </label>
+</fieldset>
+   </form>
+<img src="images/form with fieldset tag.png">
+
+</section>
+
+<section id="datalist">
+    <h3><u>datalist tags</u></h3>
+    <p><b>&lt datalist &gt:</b> the datalist tag in HTML is used to provide an "autocomplete" feature for an &lt input &gt element, allowing users to choose from a list of predefined options as they type. It is a useful way to offer suggestions or restrict input to specific values without limiting the user to a drop-down menu.</p>
+    <p><b>Explanation:</b></p>
+
+    <ul>
+        <li>The &lt input &gt element with the list attribute is linked to the &gt datalist &gt by matching the list attribute value with the id of the &lt datalist &gt.</li>
+        <li>As the user starts typing in the input field, the browser will show a drop-down list of the options defined in the &lt datalist &gt.</li>
+    </ul>
+
+    <label for="my colot list">enter a color</label>
+    <input type="text" list="colorlist" name="my color list" id="my color list" >
+    <datalist id="colorlist">
+        <option value="dark blue">dark blue</option>
+        <option value="dark green">dark green</option>
+        <option value="black">black</option>
+    </datalist>
+
+    <p>this is the code used to creat this datalist field</p>
+
+    <img src="images/datalist tag.png">
+
+</div>
+
+
+<h3><u>footer element</u></h3>
+
+<div>
+    <p><b>&ltfooter&gt:</b> act as a container for holding concluding content at the bottom of your page like:</p>
+    <ul>
+        <li>author or copyright information</li>
+        <li>contact details</li>
+        <li> links to privacy policies, terms of service, etc.</li>
+        <li>social media links</li>
+        <li>site map link</li>
+    </ul>
+    <p>the footer of this page</p>
+<img src="images/footer of the web page.png">
+<p>this is how it created</p>
+<img src="images/footer.png">
+</div>
+
+<h2>semantic elements</h2>
+<div id="semantic elements">
+    <h3><u>nav tag:</u></h3>
+    <div id="nav tag">
+        <p><b>nav tag:</b> the nav tag in html is a semantic element used to define a section of a webpage that contains navigation links.  thes links help users navigate through the main sections or pages of a website.</p>
+        <p style="margin-bottom: 0em;"><b> when to use the 'nav' tag:</b></p>
+        <ul>
+            <li style="margin-top: 1em;"><b>main navigation bar:</b> for the primary set of links at top or side of a website tha lets users move between the main sections of the site</li>
+            <li><b>secondary navigation:</b> for additional navigation menus, such as links to social media pages, legal pages (terms of service, privacy policy), or site maps.</li>
+
+        </ul>
+    </div>
+
+    <h3><u>aside tag:</u></h3>
+    <div id="aside tag">
+        <p><b>aside tag:</b> it's a semantic element used to represent content that is tangentially related to the main content of the page.this content is often presented as a sidebar or box of supplementary information, such as adertisements, side notes, or related links.</p>
+
+        <aside style="background-color: aquamarine;">
+            <h3>related article</h3>
+            <ul>
+                <li><a href="https://htmlcss.fandom.com/wiki/Aside">aside</a></li>
+            </ul>
+        </aside>
+    
+        <p>this is how it make</p>
+        <img src="images/aside element.png">
+
+    <p><b>Note:</b> ('aside' element (like other block-level element) will take up the full width availbale to it, stacking vertically with other elements on the page. to place it on the side or control its position on the page, you'll need to use CSS for styling and positioning)</p>
+
+
+    </div>
+
+
+
+</div>
+
+<section id="section tag">
+    <h3><u>section tag</u></h3>
+    <p><b>section tag:</b> is used to define a section of document, grouping related content together to make it easier to structure and navigate a webpage. it's organization and meaning of the content, especially when paired with headings. each '&ltsection&gt&gt' should ideally containt a thematic grouping of content, making the webpage more organized and semantically meaningful.</p>
+</section>
+
+<section id="article tag">
+    <h3><u>article tag</u></h3>
+    <p><b>article tag:</b> article tag is a semantic element used to represent a self-contained piece of content tha can be independently distributed or rused. this content could be a blog post, a news article, a forum post, a commment, or any other type of content that makes sense on its own.</p>
+</section>  
+
+<section id="picture tag">
+    <p><b>picture tag:</b> The &ltpicture&gt tag offers more flexibility than the &ltimg&gt tag for displaying images based on conditions like screen size or device type.</p>
+    <p><b>Key Differences:</b></p>
+    <ul>
+        <li><b>Basic Use:</b><ul>
+            <li><b>&ltimg&gt:</b> Displays a single image.</li>
+            <li><b>&ltpicture&gt:</b> >: Allows multiple &ltsource&gt elements to specify different images or formats based on conditions, with &ltimg&gt as a fallback.</li>
+        </ul></li>
+
+        <li><b>Responsive Images:</b>
+            <ul>
+                <li><b>&ltimg&gt:</b> Uses srcset and sizes for basic responsiveness.</li>
+                <li><b>&ltpicture&gt:</b> Provides advanced control for responsive design, allowing different images for various device conditions.</li>
+            </ul>
+            </li>
+            <li><b>Art Direction:</b>
+                <ul>
+                    <li><b>&ltimg&gt:</b> Limited to size or pixel density adjustments.</li>
+                    <li><b>&ltpicture&gt:</b> Ideal for art direction, displaying different images based on screen size or device type.</li>
+                </ul>
+                </li>
+           
+            </ul>
+
+        <p>Example:</p> 
+          <img src="images/picture.png">
+
+<ul>
+    <li>small.jpg for screens up to 600px.</li>
+    <li>medium.jpg for screens between 601px and 1200px</li>
+    <li>large.jpg for screens above 1200px.</li>
+    <li>default.jpg as fallback.</li>
+</ul>
+            
+<h4><u>Recommended Image Sizes for Different Devices</u></h4>
+
+<ul>
+    <li><b>Phones (Small Screens):</b>
+    <ul>
+        <li><b>Width:</b> 320px to 480px</li>
+        <li><b>Image Size Example:</b> 640px wide (for higher resolution devices, consider using images at 2x or 3x the display size, e.g., 1280px or 1920px)</li>
+    </ul>
+    </li>
+
+    <li><b>Tablets (Medium Screens):</b>
+        <ul>
+            <li><b>Width:</b> 768px to 1024px</li>
+            <li><b>Image Size Example:</b> 1024px wide (for high-resolution tablets, consider images at 2x or 3x the display size, e.g., 2048px or 3072px)</li>
+        </ul>
+    </li>
+    <li><b>Desktops (Large Screens):</b>
+    <ul>
+        <li><b>Width:</b> 1280px and above</li>
+        <li><b>Image Size Example:</b> 1280px to 1920px wide (for high-resolution desktops, consider images at 2x or 3x the display size, e.g., 2560px or 3840px)</li>
+    </ul>
+    </li>
+</ul>
+
+</section>
+
+<section id="details">
+    <h3><u>details tag</u></h3>
+
+    <p>The &lt details &gt tag in HTML is used to create a collapsible content block that the user can open and close. Its commonly used to provide additional information or details that aren't necessary to display upfront but can be accessed when needed.</p>
+
+<h4>details</h4>
+<details>
+    <summary style="cursor: pointer;">purpose</summary>
+    <p>Purpose: The &lt details &gt tag allows you to hide content by default and show it when the user chooses to do so. It is often used for FAQs, expandable sections, or additional information.</p>
+</details>
+
+<img src="images/details.png">
+
+<details>
+    <summary style="cursor: pointer;">Explanation</summary>
+    <ul>
+        <li>The &lt summary &gt tag inside &lt details &gt acts as the visible heading that users click to toggle the visibility of the content.</li>
+        <li>The content inside the &lt details &gt (like the paragraph &lt p &gt ...) is initially hidden and only becomes visible when the user clicks on the summary.</li>
+    </ul>
+    <img src="images/summary.png" alt="summary tag difinition ">
+</details>
+
+<section  id="abbr">
+    <h3><u>abbr tag</u></h3>
+    <p>The &lt abbr &gt tag is used in HTML to mark an abbreviation or acronym. When you add a title attribute to this tag, it shows the full form of the abbreviation when someone hovers over it. and Helps screen readers provide the full meaning of the abbreviation.</p>
+    <p><b>Example:</b></p>
+    <p><abbr title="HyperText Markup Language">HTML</abbr> is the standard language used to create and structure content on the web. It uses a system of tags to define elements like text, images, links, and more, providing the basic building blocks for webpages.</p>
+
+    <img src="images/abbr tag.png"> 
+
+
+
+</section>
+
+<section id="cite tag">
+    <h3><u>cite tag</u></h3>
+    <p>The &lt cite &gt tag in HTML is used to reference the title of a creative work, such as a book, article, film, or other source. It is typically used to provide a citation or to identify the source of a quote or piece of information.</p>
+    
+</section>
+
+<section id="meta tag">
+    <h3><u>meta tag</u></h3>
+
+</section>
+
+<hr>
+
+<section id="CSS">
+    <h3><u>CSS</u></h3>
+    <p><b>definition:</b> <abbr title="Cascading Style Sheets">CSS</abbr> it is used to apply styles such as colors, fonts, and layout design to HTML markup. there are three different ways to apply CSS to your HTML:</p>
+    <ol>
+        <li><b><span style="color: #0000FF;">inline CSS</span>:</b> CSS is applied directly to HTML elements using the 'style' attribute</li>
+      
+
+    <p>this is an example of inline CSS:</p>
+    <img src="images/inline CSS.png">
+
+        
+        <li><b><span style="color: #0000FF;">internal CSS</span>:</b> CSS is written within a '&lt style &gt' tag inside the '&lt head &gt' section of the HTML document
+        <ul>
+            <li>if you dont assign a class or ID to an element and you use a style rule in the '&lt head &gt' section that target all elements of a certain type (e.g., all '&lt p &gt' tags), then every instance of that element in the document will have the same style applied to it.</li>
+            <li>you can target specific element by using classes or IDs.</li>
+            <li>to style a specific word within for exampple a list item ('&lt Li &gt') using internlal CSS, you can wrap that specific word in a tag like '&lt span &gt' and then target that tag with CSS.</li>
+        </ul></li>
+    
+        <p>this an example of an internal CSS:</p>
+        <ol>
+            <li>firstly we give a class to the element we want to style it</li>
+        <img src="images/internal CSS class.png" alt="internlal CSS">
+        <li>secondly we target that tag with CSS. </li>
+        <img src="images/internal CSS h.png">
+        </ol>
+   
+    </ol>
+
+    
+
+
+   
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</main>
+<footer style="background-color: green;">
+   <hr>
+    author: Houssam Eddine Hadji <br>
+    &copy; copyright reserved<br>
+   <small><a href="mailto:hadjihoussam35@gmail.com">houssam@gmail.com</a></small>
+</footer>
+</body>
+
+
+
+
+</html>
